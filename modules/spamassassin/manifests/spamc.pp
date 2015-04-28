@@ -11,6 +11,8 @@ class spamassassin::spamc (
 
 ) {
 
+  class { 'haproxy': }
+
   class { "spamassassin::spamc::install::${::asfosname}::${::asfosrelease}":
     spamd_peers           => $spamd_peers,
     haproxy_maxconns      => $haproxy_maxconns,
