@@ -1,16 +1,16 @@
 
 class svngit2jira (
-  $uid          = 9992,
-  $gid          = 9992,
+  $uid            = 9992,
+  $gid            = 9992,
   $conf_path      = '/usr/local/etc/svngit2jira',
   $conf_file      = 'svngit2jira.cfg',
   $group_present  = 'present',
   $groupname      = 'svngit2jira',
-  $groups       = [],
+  $groups         = [],
   $service_ensure = 'running',
   $service_name   = 'svngit2jira',
-  $shell        = '/bin/bash',
-  $source       = 'svngit2jira.cfg',
+  $shell          = '/bin/bash',
+  $source         = 'svngit2jira.cfg',
   $user_present   = 'present',
   $username       = 'svngit2jira',
 
