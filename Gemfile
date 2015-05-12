@@ -11,6 +11,7 @@ gem 'puppetlabs_spec_helper'
 gem 'serverspec'
 gem 'puppet-lint'
 gem 'rake'
+gem 'deep_merge'
 
 
 #gem 'vagrant', :github => 'mitchellh/vagrant', :ref => 'v1.7.1'

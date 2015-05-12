@@ -11,6 +11,8 @@
 :yaml:
     :datadir: /etc/puppet/data
 
+:merge_behavior: deeper
+
 :eyaml:
     :datadir: /etc/puppet/data
     :gpg_gnupghome: /var/lib/puppet/.gnupg
